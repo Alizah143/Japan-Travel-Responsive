@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--FONT AWESOME CDN LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!--STYLE CSS LINK-->
+    <link rel="stylesheet" href="style.css">
+    <!--JQUERY CDN LINK-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!--JQUERY STARTED-->
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
+</head>
+<body>
+    
+<nav>
+    <!--SIDEBAR SECTION STARTED-->
+    <div class="side">
+    <div id="icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </div>
+        <div class="Japan">
+        <a href="">J</a>
+        <br>
+        <a href="">A</a>
+        <br>
+        <a href="">P</a>
+        <br>
+        <a href="">A</a>
+        <br>
+        <a href="">N</a>
+    </div>
+    <!--SIDEBAR SECTION ENDED-->
+    <label class="logo">
+        <img src="white-marketing-design-by-shen02-brandcrowd-removebg-preview.png" alt="">
+    </label>
+    <ul>
+        <li><a href="">Culture</a></li>
+        <li><a href="">Nature</a></li>
+        <li><a href="">Climate</a></li>
+        <li><a href="">Trip Planner</a></li>
+        <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </ul> 
+</nav>
+
+<!--Main heading started-->
+<div class="main">
+<h2>TRAVEL TO</h2>
+<h1>JAPAN.</h1>
+<br>
+<br>
+<p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Nulla odio vel, id explicabo  <br> dolore placeat magnam   magni  <br>  optio expedita enim quae similique <br> quibusdam? Odio neque veritatis nesciunt laborum!</p>
+<div class="button">
+    <a href="">LEARN MORE</a>
+</div>
+</div>
+<div class="image">
+    <img src="download.jpeg" alt="" width="340px"   onmouseover="changeImage(1,this)"  onmouseout="changeImage(2,this)">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
