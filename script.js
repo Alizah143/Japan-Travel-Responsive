@@ -1,3 +1,4 @@
+//  MouseOver Image Changing Effect//
 function changeImage(x,image) {
     if(x==1)
 {
